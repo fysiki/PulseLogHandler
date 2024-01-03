@@ -15,7 +15,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-log.git", from: "1.2.0"),
-        .package(url: "https://github.com/kean/pulse.git", from: "3.0.0")
+        .package(url: "https://github.com/fysiki/pulse.git", from: "3.0.0")
     ],
     targets: [
         .target(name: "PulseLogHandler", dependencies: [
